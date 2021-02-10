@@ -1,5 +1,11 @@
 # Stocks
 
+### Une simple application qui charge les données actuelles sur le cours des actions depuis une API REST standart.
+
+---
+
+![stocks](https://user-images.githubusercontent.com/44428775/107519261-576b5480-6bb0-11eb-8fbe-642f51c89e82.gif)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
 
 ## Development server
