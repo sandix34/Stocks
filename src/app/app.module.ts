@@ -5,10 +5,12 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { SummaryComponent } from './components/summary/summary.component';
-
-import { StocksService } from './services/stocks.service';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ManageComponent } from './components/manage/manage.component';
+
+import { StocksService } from './services/stocks.service';
+
+import { AppRoutes } from './app.routes';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +21,8 @@ import { ManageComponent } from './components/manage/manage.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AppRoutes
   ],
   providers: [StocksService],
   bootstrap: [AppComponent]
